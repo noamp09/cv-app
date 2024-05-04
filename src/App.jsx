@@ -1,7 +1,10 @@
 import './App.css'
+import GeneralInfo from './components/GeneralInfo'
 
 function App() {
-  console.log("hello world")
+  return (
+    <GeneralInfo />
+  )
 }
 
 
